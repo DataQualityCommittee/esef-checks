@@ -1,6 +1,6 @@
 /**
 DQR Rules
- (c) Copyright 2017 - 2022, XBRL US Inc. All rights reserved.
+ (c) Copyright 2017 - 2023, XBRL US Inc. All rights reserved.
  See https://xbrl.us/dqc-license for license information.
  See https://xbrl.us/dqc-patent for patent infringement notice.
 Taxonomy: IFRS 2022
@@ -24,6 +24,7 @@ Rule Element Id:{$rule_id}
 Rule version: {$ruleVersion}"
 
 severity error
+status $status
 effectiveDate $effective_dates[$rule_id]
 
 assert IFRS.0138.9840 satisfied
@@ -45,6 +46,7 @@ Rule Element Id:{$rule_id}
 Rule version: {$ruleVersion}"
 
 severity error
+status $status
 effectiveDate $effective_dates[$rule_id]
 
 assert IFRS.0138.9841 satisfied
@@ -63,4 +65,5 @@ Rule Element Id:{$rule_id}
 Rule version: {$ruleVersion}"
 
 severity error
+status $status
 effectiveDate $effective_dates[$rule_id]
